@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Noto+Serif" rel="stylesheet">
+
+<style type="text/css">
+	.main {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 6000px;
+	}
+
+	.inner{
+		width: 97%;
+		height: 750px;
+		margin-left: 20px;
+		margin-right: 20px;
+		  transform: skewY(4deg);
+		  transform-origin: left;
+		  display: flex;
+		  flex-direction: column;
+	}
+
+	.first{
+		width: 75%;
+		height: 310px;
+		display: flex;
+		flex-direction: row;
+		/*background-color: grey;*/
+		transform: skewY(-4deg);
+		margin-top: 50px;
+		margin-left: 50px;
+		/*margin: 5px;*/
+	}
+	.rasm {
+		margin: 5px;
+		border-radius: 60px;
+	}
+
+	.second{
+		width: 75%;
+		height: 300px;
+		display: flex;
+		flex-direction: row;
+		/*background-color: grey;*/
+		transform: skewY(-4deg);
+		/*margin-top: 10px;*/
+		margin-left: 50px;
+	}
+	.sec-inn{
+		width: 31%;
+		height: 280px;
+		margin: 4px;
+		/*background-color: blue;*/
+	}
+	.sec-inn p{
+		font-size: 22px;
+		color: white;
+	}
+	.sec-inn h2 {
+		margin-left: 50px;
+	}
+
+
+	/*Class Swimming is started*/
+
+	.inn-swim-one {
+			/*background-color: yellow;*/
+			/*box-shadow: 10px 10px 5px grey;*/
+			transform: skewY(-4deg);
+			width: 25%;
+			height: 300px;	
+			margin-left: 540px;
+			margin-top: 40px;
+	}
+
+	.swim-pic {
+		width: 300px;
+		height: 300px;
+		background-size: 300px 300px; 
+		/*background-image: url(swwim.jpg);*/
+		border-radius: 150px;
+	}
+
+	.inn-swim-two {
+		width: 75%;
+		height: 300px;
+		display: flex;
+		flex-direction: row;
+		background-size: 300px 260px;
+		/*background-color: grey;*/
+		transform: skewY(-4deg);
+		margin-left: 200px;
+		margin-top: 10px;
+	}
+
+	.inn-swim-two-fir{
+		width: 32%;
+		height: 260px;
+		margin: 5px;
+		border-radius: 20px;
+		/*border:1px solid black;*/
+	}
+	.inn-swim-two-fir p,h1{
+		font-family: 'Libre Baskerville', serif;
+		padding: 5px;
+		font-size: 20px;
+		color: white;
+	}
+
+</style>
+
+</head>
+<body>
+
+  <div class="main">
+  	
+  	<div class="inner" style="background-color:#20A499; "> 
+		
+		<div class="first">
+			<div class="rasm" style="background-image: url(images/bike.jpg); width:300px; height: 300px; background-size: 300px 300px; ">
+				
+			</div>
+			
+			<div class="rasm" style="background-image: url(images/bike2.jpg); width:300px; height: 300px; background-size: 300px 300px; ">
+				
+			</div>
+			
+			<div class="rasm" style="background-image: url(images/bike3.jpg); width:300px; height: 300px; background-size: 300px 300px; ">
+				
+			</div>
+		
+		</div>   <!-- Class first  is finished -->  
+
+		<div class="second">
+			<div class="sec-inn">
+				<h2>Track Cycling</h2>
+				<p>Riders use special bikes and ride anticlockwise around the track in a range of events, from endurance-based pursuits over several kilometres - the aim being to outpace a rival rider or team - through to the cagey, strategy-based individual sprint.</p>
+			</div>
+			
+			<div class="sec-inn">
+				<h2>Road Cycling</h2>
+				<p>It has a strong club-based culture, so a great place to start is by joining a club which regularly runs training rides on public roads. As road racing is a team-based pursuit, it is an excellent way to make new friends, develop communication skills and learn to work effectively with other people.</p>
+			</div>
+
+			<div class="sec-inn">
+				<h2>Inclusive  Cycling</h2>
+				<p>Paracycling takes various forms, including standard track and road cycling alongside handcycling, where competitors power the bike with their hands and arms.Tandem bikes are used for blind or visually impaired athletes and their assistants.</p>
+			</div>
+
+		</div>		
+
+  	</div>
+<!-- // -->
+  	<div class="inner" style="background-color: #B32C33;"> 
+  		
+  		<div class="inn-swim-one">
+  			<div class="swim-pic">
+  				<img src="images/picture25.jpg" width="300" height="300" style="border-radius: 150px; box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5), 0 10px 20px 0 rgba(0, 0, 0, 0.29);">
+  			</div>
+  		</div>
+
+<!-- style="background-image: url(olov.jpg); background-size: 300px 260px;" -->
+  		<div class="inn-swim-two">
+  			<div class="inn-swim-two-fir" id="swim-sec" >
+  				<img src="images/fireworks.jpg" style="width: 300px; height: 260px; border-radius: 20px; box-shadow: 10px 10px 5px black;">
+  			</div>
+
+  			<div class="inn-swim-two-fir">
+  				<h1>Swimming</h1>
+  				<p>May 19th- Firefighter/EMT weekend!  This will be our first time doing this but we will have games and other fun stuff, plus-book for Friday and Saturday night and you get one of the nights free! Cabins and rental campers are stay one night get second night half off.</p>
+  			</div>
+
+  			<div id="swim-sec" class="inn-swim-two-fir" >
+  				<img src="images/fireworks.jpg" style="width: 300px; height: 260px; border-radius: 20px; box-shadow: 10px 10px 5px black;">
+  			</div>
+
+  		</div>
+
+  	</div>
+<!-- // -->
+  	<div class="inner" style="background-color: #E37E2C;"> 
+
+  	</div>
+<!-- // -->
+
+  </div>
+
+
+</body>
+</html>

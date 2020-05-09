@@ -1,0 +1,127 @@
+body
+{
+background-image:url(../images/12.jpg);
+}
+.container-fluid
+{
+	border:solid black;
+}
+h2{
+	text-transform: uppercase;
+}
+
+ul.inside{
+    list-style-type: none;
+    margin-top: 0px;
+    margin-left:0px;
+    margin-right:0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellow;
+    color:black;
+    border-radius: 5px;
+}
+
+li.inside{
+    float: left;
+}
+li.inside a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li.inside a:hover {
+    background-color: black;
+    color:white;
+    font-family: times;
+}
+img.facebook{
+	width: 25px;
+	height: 25px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+div.big{
+	background-color: lightgrey;
+	width: 800px;
+	height: 500px;
+	margin-top: 100px;
+	position: absolute;
+	margin-left: 240px;
+	border-radius: 5px;
+	background: rgba(255, 255, 255, 0.6);
+}
+.main{
+	background-color: white;
+	width: 1000px;
+	height: 800px;
+	margin-top: 220px;
+	border-radius: 5px;
+	position: absolute;
+	margin-left: 150px;
+	border:solid red;
+	margin-bottom: 200px;
+}
+div.glob{
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	background-color: white ;
+	width: 900px;
+	height: 300px;
+	border-radius: 5px;
+}
+div.ins{
+ 
+	height: 250px;
+	width: 500px;
+	margin: 5px;
+    border-radius: 5px;
+}
+a{
+	color: red;
+}
+div.litle{
+	border:3px solid black;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	border-radius: 10px;
+	margin: 5px;
+	font-family: sans-serif;
+	display:inline-block;
+	vertical-align: middle;
+}
+
+img{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+}
+span{
+	font-family: sans-serif;
+	display:inline-block;
+}
+li.icon_t{
+	list-style-type: none;
+	}
+img.roger{
+	margin-top: 0px;
+	height: 80px;
+	width: 60px;
+	float: left;
+	margin: 10px;
+}
+p.lincoln{
+	size: 25px;
+
+}
+
+.aminity-icon > h2
+{
+	text-align: center;
+}

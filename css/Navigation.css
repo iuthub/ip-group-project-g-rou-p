@@ -1,0 +1,290 @@
+
+.container
+{
+    margin-left: 13%;
+}
+.navbar
+{
+    min-height: 30px;
+}
+
+ /*-----------------------------------------------------First NavBar--------------------------------------*/
+
+.navbar-default.topMenu
+ {
+    top:0px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    height:30px;
+    margin-bottom: 0px;
+    padding-right: 40px;
+ }
+.topMenu
+ {
+    z-index: 1032;
+ }
+.navbar-brand { 
+    position: relative; 
+    z-index: 2; 
+    margin-top:5px;
+    margin-left: 35px;
+    margin-right: 50px; 
+    padding-top: 0px; 
+    height: 30px; 
+}
+ 
+.navbar-default .navbar-nav > li > a {
+    color:#333333;
+    display: inline-block;
+    padding-top: 7px;
+    padding-bottom: 5px,auto;
+    font-family: "Impact";
+    text-transform: uppercase;
+    font-size: 12px;
+    height: 27px;
+}
+.navbar-default .navbar-nav > li > a:hover
+{
+    color:red;
+    background-color: white;
+}
+.sign_in { 
+      position: fixed;
+      z-index: 1;
+      top:30px;
+      margin-top: 0px;
+      float:right;
+      background-color:black;
+      
+}
+.navbar-form
+{
+padding-top: 10px;
+padding-bottom: 8px;
+padding-left: 20%;
+}
+
+
+/*---------------------------------------------------Below Navigation_--------------------------------------*/
+.navbar-inverse.mainMenu {
+    padding-right: 30px;
+}
+.navbar-inverse .navbar-nav > li > a
+{
+    color: white;
+    font-family: "Arial Narrow";
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+} 
+.navbar-inverse .navbar-nav > li > a:hover
+{
+   color: yellow;
+}
+.navbar-inverse.mainMenu {
+    background-color: #000000;
+    z-index: 1031;
+}
+.navbar-toggle
+{
+    float: right;
+}
+
+/*------------------------------------------------------------Signi in Button --------------------------------------------*/
+.navbar-nav.navbar-right .btn {
+ position: relative; 
+ z-index: 2; 
+ padding: 2px 20px; 
+ margin: 3px auto; 
+ transition: transform 0.3s; 
+}
+.btn.btn-default { border-radius: 50px;}
+.navbar-nav.navbar-right .btn:not(.collapsed) {
+    background-color: purple;
+    border-color: purple;
+    color: white;
+}
+
+/*--------------------------------------footer----------------------------*/
+.footer {
+    z-index: 1032;
+    padding-top: 20px;
+    background-color: #FFDE00;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.footer .glyphicon {
+    font-size: 8px;
+}
+.red-font {
+    color: #EF3A43 !important;
+}
+.footer a
+{
+    font-weight: bold;
+    color:#333;
+    text-decoration: none;
+}
+.footer a:hover
+{
+   color: red;
+}
+.list-inline
+{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.the_end
+{
+    margin-top: 10px;
+}
+
+/*------------------------------------media----------------------------*/
+@media (min-width: 768px){
+.mainMenu .navbar-nav, .topMenu .navbar-nav {
+    float: right;
+}}
+
+@media (min-width: 768px){
+.topMenu {
+    top: 30px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+}}
+
+@media (min-width: 768px){
+.mainMenu {
+    top: 30px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+}}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.cont > button {
+    background-color: #2581F2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-family: "Arial Narrow";
+    font-size: 17px;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 30px 0 6px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.cont {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+}
+span.register
+{
+    float:right;
+    margin-right:50px;
+    padding-top: 8px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 30px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
